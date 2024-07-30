@@ -40,6 +40,9 @@ langsmith==0.1.94
     # via langchain-core
 loguru==0.7.2
     # via agentic-rag
+mypy==1.11.0
+mypy-extensions==1.0.0
+    # via mypy
 numpy==1.26.4
     # via pyarrow
     # via pylance
@@ -72,11 +75,13 @@ requests==2.32.3
     # via langsmith
 retry==0.9.2
     # via lancedb
+ruff==0.5.5
 tenacity==8.5.0
     # via langchain-core
 tqdm==4.66.4
     # via lancedb
 typing-extensions==4.12.2
+    # via mypy
     # via pydantic
     # via pydantic-core
 urllib3==2.2.2
